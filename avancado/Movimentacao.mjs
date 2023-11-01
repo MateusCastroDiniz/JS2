@@ -8,5 +8,3 @@ export class Movimentacao{
         this.nome = nomeDef
     }
 }
-
-export default Movimentacao

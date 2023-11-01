@@ -26,5 +26,3 @@ export class Registro{
         return nome + '|' + valorExib
     }
 }
-
-export default Registro;
