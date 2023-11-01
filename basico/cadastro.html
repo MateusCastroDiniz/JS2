@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/source-estilo.css">
+        <link rel="stylesheet" href="./css/estilo.css">
+
+    </head>
+    <body>
+
+        <div class="bloco-form  div-formulario">
+            <h1 id="titulo">Cadastre-se aqui</h1>
+            <form id="cadastro">
+                <p>Preencha com seus dados</p>
+                <input id="nome-aluno" type="text" placeholder="Nome completo" class="obrigatorio nome" name="nome-cadastro">
+                <input id="input-cpf" required type="text" placeholder="CPF" class="obrigatorio cpf" name="cpf">
+                <input id="input-email" type="text" required placeholder="Endereço de E-mail" class="obrigatorio email" name="email">
+                <input id="input-tel" type="text" required placeholder="Telefone" class="obrigatorio telefone" name="telefone">
+                <input id="input-cidade" type="text" placeholder="Cidade" name="cidade">
+                <input id="input-uf" type="text" required class="obrigatorio uf" placeholder="Unidade Federal (UF)" name="uf">
+                <input id="input-cep" type="text" required placeholder="CEP Ex.: xxxxx-xxx" class="obrigatorio cep" name="cep"> 
+                <input class="btn-envio" type="submit">
+            </form>
+            <div id="resposta" class="bloco">
+                <p id="resultado"></p>
+            </div>
+        </div>
+
+        
+
+        <script src="./js/cadastro-script.js"></script>
+    </body>
+</html>
