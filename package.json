@@ -1,0 +1,15 @@
+{
+  "name": "js2",
+  "version": "1.0.0",
+  "description": "- A POO visa a criação de moldes de múltiplos objetos que terão em comum os mesmos atributos, com características diferentes! - Associavéis através do padrão chave-valor;",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
