@@ -4,15 +4,26 @@
 
 ## Estrutura do projeto:
 
+
+
 ~~~html
 .
 ├── avancado
-│   ├── Animal.js
-│   ├── Arrowfunc.js
-│   ├── financas.mjs
-│   ├── Movimentacao.mjs
-│   ├── objetos.js
-│   └── Registro.mjs
+│   ├── index.html
+│   ├── js
+│   │   ├── Animal.js
+│   │   ├── Arrowfunc.js
+│   │   ├── carros.mjs
+│   │   ├── exams.js
+│   │   ├── filtroCarros.js
+│   │   ├── financas.mjs
+│   │   ├── meses.mjs
+│   │   ├── Movimentacao.mjs
+│   │   ├── objetos.js
+│   │   └── Registro.mjs
+│   └── ts
+│       ├── intro.js
+│       └── intro.ts
 ├── basico
 │   ├── cadastro.html
 │   ├── css
@@ -23,4 +34,7 @@
 │       ├── cadastro-script.js
 │       ├── notas.js
 │       └── notas-script.js
+├── package.json
+├── package-lock.json
 └── README.md
+~~~
