@@ -2,6 +2,10 @@
 - A POO visa a criação de moldes de múltiplos objetos que terão em comum os mesmos atributos, com características diferentes!
 - Associavéis através do padrão chave-valor;
 
+# instruções de instalação
+## Execute o comando para baixar as dependencias do Typescript:
+- npm install
+
 ## Estrutura do projeto:
 
 
